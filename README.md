@@ -1,1 +1,5 @@
-# DiyMKbd
+# Diy Mechanical Keyboard
+
+### Hardware
+
+### Firmware
