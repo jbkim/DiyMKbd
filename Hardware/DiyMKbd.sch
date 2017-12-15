@@ -5350,7 +5350,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="B1" library="SparkFun-Boards" deviceset="SPARKFUN_PRO_MICRO" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_03" device="LOCK"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="CONN_03" device="LOCK" value="2.54 header"/>
 <part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="TP_15TH_THRU"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="L1" library="adafruit" deviceset="WS2812B" device=""/>
@@ -6370,6 +6370,10 @@ Source: AVX .. aphvc.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="204,1,67.31,168.91,B1,RAW,,,,"/>
+<approved hash="104,1,67.31,161.29,B1,VCC,+5V,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

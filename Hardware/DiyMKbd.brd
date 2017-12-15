@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1753,7 +1753,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="80.096" y="88.56" size="1.016" layer="25" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="49.106" y="88.44" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="45.23" y="93.84" smashed="yes" rot="R270">
+<element name="J1" library="SparkFun-Connectors" package="1X03_LOCK" value="2.54 header" x="45.23" y="93.84" smashed="yes" rot="R270">
 <attribute name="NAME" x="47.627" y="95.11" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="43.198" y="95.11" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
@@ -1871,67 +1871,67 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="62.865" y="19.095" size="1.27" layer="27"/>
 </element>
 <element name="D5" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="22.5" y="13" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.643" y="16.048" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="22.143" y="10.048" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="20.087" y="16.048" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D1" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="41.5" y="13" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.643" y="16.048" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="41.143" y="10.048" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="39.087" y="16.048" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D2" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="60.5" y="13" smashed="yes" rot="R270">
-<attribute name="NAME" x="61.643" y="16.048" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="60.143" y="10.048" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="58.087" y="16.048" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D3" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="79.5" y="13" smashed="yes" rot="R270">
-<attribute name="NAME" x="80.643" y="16.048" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="79.143" y="10.048" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="77.087" y="16.048" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D4" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="22.5" y="31" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.643" y="34.048" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="22.143" y="28.048" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="20.087" y="34.048" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D6" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="41.5" y="31" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.643" y="34.048" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="41.143" y="27.548" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="39.087" y="34.048" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D7" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="60.5" y="31" smashed="yes" rot="R270">
-<attribute name="NAME" x="61.643" y="34.048" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="60.143" y="27.548" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="58.087" y="34.048" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D8" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="79.5" y="31" smashed="yes" rot="R270">
-<attribute name="NAME" x="80.643" y="34.048" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="79.143" y="27.548" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="77.087" y="34.048" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D9" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="22.5" y="50" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.643" y="53.048" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="22.143" y="47.048" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="20.087" y="53.048" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D10" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="41.5" y="50" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.643" y="53.048" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="41.143" y="47.048" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="39.087" y="53.048" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D11" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="60.5" y="50" smashed="yes" rot="R270">
-<attribute name="NAME" x="61.643" y="53.048" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="60.143" y="47.048" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="58.087" y="53.048" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D12" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="79.5" y="50" smashed="yes" rot="R270">
-<attribute name="NAME" x="80.643" y="53.048" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="79.143" y="47.048" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="77.087" y="53.048" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D13" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="22.5" y="69" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.643" y="72.048" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="22.043" y="65.748" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="20.087" y="72.048" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D14" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="41.5" y="69" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.643" y="72.048" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="41.143" y="66.048" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="39.087" y="72.048" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D15" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="60.5" y="69" smashed="yes" rot="R270">
-<attribute name="NAME" x="61.643" y="72.048" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="60.143" y="66.048" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="58.087" y="72.048" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D16" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="79.5" y="69" smashed="yes" rot="R270">
-<attribute name="NAME" x="80.643" y="72.048" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="79.143" y="66.048" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="77.087" y="72.048" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="GOLD_ORB_SM1" library="oshw" package="OSHW_5MM" value="OSHWLOGOLOGO5MM" x="8" y="88" smashed="yes"/>
