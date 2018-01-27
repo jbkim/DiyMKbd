@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# Backup files
+*.s#?
+*.b#?
+*.l#?
+*.b$?
+*.s$?
+*.l$?
