@@ -175,6 +175,8 @@ TX</text>
 <hole x="3" y="3" drill="2"/>
 <hole x="80" y="3" drill="2"/>
 <hole x="3" y="95" drill="2"/>
+<dimension x1="0" y1="0" x2="83" y2="4.5" x3="41.5" y3="-4.3" textsize="1.778" layer="48" dtype="horizontal"/>
+<dimension x1="3" y1="98" x2="6.9" y2="0" x3="-3.1" y3="49" textsize="1.778" layer="48" dtype="vertical"/>
 </plain>
 <libraries>
 <library name="my_parts">
