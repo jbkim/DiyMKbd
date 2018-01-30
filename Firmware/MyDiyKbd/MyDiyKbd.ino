@@ -190,21 +190,28 @@ void rainbow(uint8_t wait) {
 void run_cmd(uint8_t key)
 {
   switch(key) {
+    // 1
     case 0:
       Keyboard.press(KEY_LEFT_GUI);
       Keyboard.press(KEY_LEFT_CTRL);
       Keyboard.press('q');    
       break;    
     case 1:
+      // select all
       Keyboard.press(KEY_LEFT_GUI);
       Keyboard.press('a');    
       break;
     case 2:
+      // alt + space = Spotlight
+      Keyboard.press(KEY_LEFT_ALT);
+      Keyboard.press(' ');  
       break;
     case 3:
       Keyboard.press(KEY_LEFT_ARROW);
       break;
+    // 2
     case 4:
+      // close window
       Keyboard.press(KEY_LEFT_GUI);
       Keyboard.press('w');    
       break;
@@ -216,6 +223,7 @@ void run_cmd(uint8_t key)
     case 7:
       Keyboard.press(KEY_DOWN_ARROW);
       break;
+    // 3
     case 8:
       break;
     case 9:
@@ -225,10 +233,10 @@ void run_cmd(uint8_t key)
     case 11:
       Keyboard.press(KEY_RIGHT_ARROW);    
       break;
+
+    // 4
     case 12:
-      Keyboard.press(KEY_ESC);
-      break;
-    case 13:
+      // log out
       Keyboard.press(KEY_LEFT_GUI);
       // Shift-Q logs out:
       Keyboard.press(KEY_LEFT_SHIFT);
@@ -238,11 +246,15 @@ void run_cmd(uint8_t key)
       // enter:
       // Keyboard.write(KEY_RETURN);      
       break;
-    case 14:
+    case 13:
       Keyboard.press(KEY_PAGE_UP);
       break;
-    case 15:
+    case 14:
       Keyboard.press(KEY_PAGE_DOWN);
+      break;
+    case 15:
+      // enter
+      Keyboard.write(KEY_RETURN);   
       break;
   }
 }

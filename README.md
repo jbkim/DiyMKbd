@@ -12,4 +12,7 @@
 - 중국 PCB 업체 https://jlcpcb.com/
 
 ### 참고
-http://blog.komar.be/how-to-make-a-keyboard-the-matrix/
+- http://blog.komar.be/how-to-make-a-keyboard-the-matrix/
+- 아두이노 Keyboard Modifiers https://www.arduino.cc/en/Reference/KeyboardModifiers
+- Mac 키보드 단축키 https://support.apple.com/ko-kr/HT201236
+
