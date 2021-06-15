@@ -1,5 +1,7 @@
 # Diy Mechanical Keyboard
 
+<img src="./keyboard.jpg" width="300" height="300">
+
 ### Hardware
 - WS2812B NeoPixel: 없어도 동작함 [Link](https://www.adafruit.com/product/1655)
 - 기계식 키스위치: http://www.coupang.com/vp/products/24294727
